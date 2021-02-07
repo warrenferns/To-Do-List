@@ -1,0 +1,8 @@
+create database todolist
+CREATE TABLE `list` (
+	`taskName` varchar(40) NOT NULL,
+    `employee` varchar(40) NOT NULL,
+    `date` date NOT NULL,
+    `isDone` boolean NOT NULL,
+    PRIMARY KEY(`tasklistName`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;  

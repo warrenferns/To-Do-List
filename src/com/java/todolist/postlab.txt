@@ -1,0 +1,47 @@
+1) Interfaces in JDBC API.A are
+Driver interface
+Connection interface
+Statement interface
+PreparedStatement interface
+CallableStatement interface
+ResultSet interface
+ResultSetMetaData interface
+DatabaseMetaData interface
+RowSet interface
+
+2)
+STATEMENT
+It is used when SQL query is to be executed only once.
+You can not pass parameters at runtime.	
+Used for CREATE, ALTER, DROP statements.	
+Performance is very low.	
+It is base interface.	
+Used to execute normal SQL queries.	
+We can not used statement for reading binary data.	
+It is used for DDL statements.	It is used for any SQL Query.
+We can not used statement for writing binary data.
+No binary protocol is used for communication.	
+
+PREPARED STATEMENT
+It is used when SQL query is to be executed multiple times.
+You can pass parameters at runtime.	
+Used for the queries which are to be executed multiple times.
+Performance is better than Statement.
+It extends statement interface.
+Used to execute dynamic SQL queries.
+We can used Preparedstatement for reading binary data.
+We can used Preparedstatement for writing binary data.
+Binary protocol is used for communication.
+
+Q3)
+JDBC Rowset
+Batch Statement 
+Transaction Management
+Callable Statement
+Retireving File
+Storing image
+DatabaseMetaData
+ResultSetMetaData
+	
+	
+	
