@@ -44,7 +44,7 @@ public class ToDoListDAO {
 	        Class.forName("com.mysql.jdbc.Driver");
 
 	        try (Connection connection = DriverManager
-	            .getConnection("jdbc:mysql://localhost:3306/todolist?useSSL=false", "root", "walwin");
+	            .getConnection("jdbc:mysql://localhost:3306/todolist?useSSL=false", "", "");
 
 	            // Step 2:Create a statement using connection object
 	            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
